@@ -1,1 +1,5 @@
 
+function Verify-Shortcut{
+    param([string]$Path)
+    return Test-Path -Path $Path
+}
